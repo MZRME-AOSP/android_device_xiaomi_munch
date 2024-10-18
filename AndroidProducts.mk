@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_munch.mk
+    $(LOCAL_DIR)/miku_munch.mk
+
+COMMON_LUNCH_CHOICES := \
+    miku_munch-user \
+    miku_munch-userdebug \
+    miku_munch-eng
